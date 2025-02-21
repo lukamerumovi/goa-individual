@@ -1,0 +1,31 @@
+<!-- შექმენი html-ში p და button ელემენტი მიეცი მათ უნიკალური id და დაუწერე რამე ტექსტი
+java script-ით წამოიღე ის აიდის მეშვეობით და შეუცვალე ტექსტი და backgroung ფერი,ასევე კონსოლში გამოიტანე თითოეული -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="element">grey</p> 
+
+    <button id="element1">blue</button>
+
+    <script>
+        let pElement = document.getElementById ("element")
+        pElement.textContent = "darkgrey"
+        pElement.style.backgroundColor = "darkgrey"
+        console.log(pElement.textContent)
+
+
+        let bElement = document.getElementById ("element1")
+        bElement.textContent = "darkgrey"
+        bElement.style.backgroundColor = "darkgrey"
+        console.log (bElement.textContent)
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    align-content: flex-start;
+}
+
+
+button{
+    background-color: yellowgreen;
+}
