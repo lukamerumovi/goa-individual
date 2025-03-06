@@ -1,0 +1,21 @@
+input[type="text"]{
+    border-radius: 100px;
+}
+input[type="email"]{
+    border-radius: 100px;
+}
+
+input[type="password"]{
+    border-radius: 100px;
+    color: gray;
+}
+
+#button1{
+    border-radius: 100px;
+    color: green;
+}
+
+#button2{
+    border-radius: 10px ;
+    color: red;
+}
