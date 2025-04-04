@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <!--register form -->
+  <body>
+    <form id="registre">
+      <h1>Register</h1>
+      <input
+        class="input"
+        type="text"
+        placeholder="enter username"
+        name="username"
+      />
+      <input
+        class="input"
+        type="email"
+        placeholder="enter Email"
+        name="email"
+      />
+      <input class="input" type="number" placeholder="enter Age" name="age" />
+      <input class="input" type="password" placeholder="Enter Password" name="password" />
+      <button id="button1" type="button" onclick="register()">register</button>
+    </form>
+    <!--login form -->
+    <form id="login">
+      <h1>Log-in</h1>
+      <input
+        class="input"
+        type="email"
+        placeholder="enter Email"
+        name="loginemail"
+      />
+      <input
+        class="input"
+        type="password"
+        placeholder="enter Password"
+        name="loginPassword"
+      />
+      <button id="button2" type="button" onclick="Login()">Log-in</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
