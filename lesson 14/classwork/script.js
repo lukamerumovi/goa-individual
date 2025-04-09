@@ -1,16 +1,16 @@
 // create an object named a car with the following properties
 
-// let car = {
-//     brand: "toyota",
-//     model : "corolla",
-//     year: 2022,
-//     color: "blue"
-// }
+let car = {
+    brand: "toyota",
+    model : "corolla",
+    year: 2022,
+    color: "blue"
+}
 
 // using the car object you created in the first task
 
-// console.log(car["brand"], car["model"])
-// console.log(car.brand.length, car.model.length )
+console.log(car["brand"], car["model"])
+console.log(car.brand.length, car.model.length )
 
 
 
