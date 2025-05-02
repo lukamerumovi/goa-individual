@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 39, 39);
+  }
+  
+  #main-div {
+    width: 550px;
+    height: 700px;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  #main-div:hover {
+    scale: 1.03;
+  }
+  
+  #name-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #main-point-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #random-point-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #button-divs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .name-ps {
+    font-size: 25px;
+    color: white;
+    font-family: "Lucida Sans";
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .main-point-h2 {
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .random-p {
+    font-size: 27.5px;
+    font-family: Verdana, sans-serif;
+    color: white;
+    font-weight: 300;
+  }
+  
+  .buttons {
+    color: white;
+    font-size: 17px;
+    width: 200px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: lightskyblue;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  
+  .buttons:hover {
+    scale: 1.1;
+    background-color: rgb(101, 195, 254);
+  }
