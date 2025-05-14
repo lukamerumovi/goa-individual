@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#photo-choose-div{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    flex-direction: column;
+}
+
+
+#user-photo{
+    width: 200px;
+    height: 200px;
+}
+
+#bot-photo{
+    width: 200px;
+    height: 200px;
+}
+
+.photo{
+    width: 170px;
+    height: 1700px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.photo:hover{
+    scale: 1.1;
+}
+
+#photo-2-div{
+    width: 700px;
+    height: 600px;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: chartreuse;
+}
