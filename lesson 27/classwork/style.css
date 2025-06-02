@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 99vh;
+    background: linear-gradient(to bottom, #0b0565, #3b3bc4, #1c93ab)
+}
+
+#mainNav{
+    width: 100% ;
+    height: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+#navDiv{
+    display: flex;
+    gap: 10px;
+}
+
+#button-nav{
+    background-color:rgb(62, 30, 204);
+    background: linear-gradient(to bottom,#0b0565, #3b3bc4, #1c93ab);
+    color: white;
+    border: none;
+    
+}

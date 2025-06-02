@@ -1,0 +1,59 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+    width:100%;
+    height:99vh;
+    background: linear-gradient(to bottom,#0b0565, #3b3bc4, #1c93ab);
+    background-image: url(./bakc.jpg);
+} 
+
+#Nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+#pDiv{
+    display: flex;
+    gap: 20px;
+}
+
+#getSupportButton{
+    border: 7px;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    background-color: #3b3bc4;
+    color: white;
+}
+
+
+#st2-Div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#st2-Servuces-Button{
+    background-color: white;
+    color: #0b0565;
+    border-radius: 7px;
+    width: 140px;
+    height: 40px;
+}
+
+#st3-Contact-Button{
+    border-radius: 7px;
+    width: 140px;
+    height: 40px;
+    background-color: #0b0565;
+    color: white;    
+}
