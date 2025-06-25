@@ -54,19 +54,20 @@
 
 
 
-// create a typing effect with "setTimeout"???
+// create a typing effect with "setTimeout"
 
-// let text = "testing type of the text"
-// let div = document.getElementById("textDiv")
-
+// let timer = setTimeout(function(){
+//     console.log("typingtext")
+// },1000)
 
 
 // show 3 alert messages each one second apart
 
-alert("1 alert message")
-setTimeout((){
-    alert("2 alert message")
-},1500)
-setTimeout((){
-    alert("3 alert message")
-},1500)
+// let count = 0
+// let timer = setInterval(function(){
+//     alert("1message")
+//     count+=1
+//     if(count == 3){
+//         clearInterval(timer)
+//     }
+// },1000)
